@@ -7,19 +7,11 @@ const Header = () => (
       <h1>SOS</h1>
       <p>Unindo quem precisa com quem sabe fazer</p>
     </S.sos>
-    <nav>
-      <S.navBar>
-        <S.buttonLink>
-          <button>Inscrever-se</button>
-        </S.buttonLink>
-        <S.buttonLink>
-          <button>Login</button>
-        </S.buttonLink>
-        <S.buttonLink>
-          <button>Seja membro</button>
-        </S.buttonLink>
-      </S.navBar>
-    </nav>
+    <S.navBar>
+      <button>Inscrever-se</button>
+      <button>Login</button>
+      <button className="sejaMembro">Seja membro</button>
+    </S.navBar>
   </S.Header>
 )
 

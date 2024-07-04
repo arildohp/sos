@@ -8,15 +8,41 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  display: flex;
 `
 export const sos = styled.div`
   display: flex;
   align-items: center;
+
+  img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 90px;
+    margin: 0 6px;
+  }
+
+  p {
+    width: 154px;
+  }
 `
 
 export const navBar = styled.ul`
   display: flex;
-`
-export const buttonLink = styled.li`
-  margin-right: 20px;
+
+  button {
+    border-radius: 50px;
+    height: 50px;
+    margin-right: 20px;
+    width: 200px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .sejaMembro {
+    background-color: ${colors.darkBlue};
+    color: ${colors.white};
+  }
 `
