@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Header from './components/Header'
 import { GlobalCss } from './styles'
+import Product from './components/Products'
 
 const rotas = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ function App() {
       <GlobalCss />
       <div>
         <Header />
+        <Product />
       </div>
     </>
   )
