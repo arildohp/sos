@@ -1,6 +1,7 @@
 import * as S from './styles'
 import brasil from '../../assets/image/brasil.png'
 import eletronic from '../../assets/image/eletrônico.png'
+import reforma from '../../assets/image/reforma 1.png'
 const Product = () => (
   <>
     <S.Banner>
@@ -28,7 +29,7 @@ const Product = () => (
       <S.Img2>
         <img src={eletronic} alt="eletronicos" />
       </S.Img2>
-      <S.Img2>
+      <S.Infos>
         <h2>eletrônicos</h2>
         <p>
           Seu equipamentos eletrônicos apresentando problemas tecnicos? não se
@@ -38,7 +39,21 @@ const Product = () => (
           equipamentos eletrônicos seja qual for seu defeito aqui você encontra
           profissionais qualificados com garantia de qualidade.
         </p>
-      </S.Img2>
+        <button>SAIBA MAIS</button>
+      </S.Infos>
+      <S.Infos2>
+        <h2>construção/reformas</h2>
+        <p>
+          vai construir ou reformar?aqui você encontra milhares de profissionais
+          qualificados com os melhores preços do mercado, seja no campo ou na
+          cidade,na SOS você encontra qualidade e segurança para sua contrução e
+          reforma.
+        </p>
+        <button>SAIBA MAIS</button>
+      </S.Infos2>
+      <S.img3>
+        <img src={reforma} alt="tudo para reforma e construção" />
+      </S.img3>
     </S.Eletronicos>
   </>
 )
